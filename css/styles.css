@@ -5,3 +5,6 @@ main{
 .classement{
     background-image: url(img/classement-l1.png);
 }
+p {
+    color:red
+}
