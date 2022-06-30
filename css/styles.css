@@ -1,3 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*
+{
+  box-sizing: border-box;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    font-size: 2rem;
+    line-height: 2;
+
+}
+
+
+
+header
+{
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(/img/bg-fff.png);
+}
+header img
+{
+    width: 250px;
+    transition: transform 0.3s ease 0s;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav
+{
+float: right;  
+margin: 90px 250px 0 0;
+}
+
+a
+{
+    text-decoration: none;
+    padding-right: 15px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+header a:hover {
+	color: rgba(246, 36, 89,1);
+}
+
+
+
 main{
     background-image: url(img/bg-body2.png);
 }
@@ -5,6 +61,20 @@ main{
 .classement{
     background-image: url(img/classement-l1.png);
 }
-p {
-    color:red
-}
+
+@media screen and (max-width: 1024px) {
+	header {
+        text-align: center;
+    }
+    nav {
+        display: block;
+        margin: 0;
+        float: none;
+    }
+    header img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    
+    }
