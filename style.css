@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    font-weight: bolder;
+}
+body{
+    font-family: 'Bree Serif', serif; ;
+    
+}
+header{
+    background: linear-gradient(rgb(14, 203, 227), rgb(6, 1, 59)) ;
+    width:100%;
+    
+   
+    top: 0;
+    left: 0;
+    
+    border-bottom: 4px solid rgb(115, 105, 74);
+}
+li{
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px;
+}
+li:hover{
+    background-color: white;
+    
+}
+nav {
+    float: right;
+    padding: 15px;
+    margin: auto;
+}
+
+img{
+   padding: 0 15px;
+    width: 40%;
+    margin: auto;
+}
+
+#icon-menu{
+    visibility: hidden;
+    width: 32px!important;
+    height: 32px!important;
+   
+}
+input{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+    background: white;
+    color: rgb(174, 163, 163);
+}
+
+   
+
+    #icon-menu{
+        visibility: visible;
+       background: rgb(177, 84, 84);
+     
+      
+    }
+    #icon-menu:hover{
+        visibility: visible;
+       
+      
+    }
+    nav ul, nav:active ul {
+        display:none;
+        position: absolute;
+        padding: 20px;
+        background: rgb(114, 106, 106);
+        left: 0;
+        right: 10px;
+        top: 100px;
+        width: 100%;
+        color: white;
+       
+    }
+    nav:hover ul {
+        display: block;
+    }
+    nav li {
+        text-align: center;
+        width: 100%;
+        padding: 15px 0;
+        margin: 0;
+    }
+li:hover{
+        color:rgb(190, 151, 20) ;
+}
+/* ACTUS*/
+section{
+    
+
+   
+    padding: 15px 15px;
+}
+.actus{
+    text-align: center;
+    gap: 5px;
+}
+
+h1{
+    line-height: 1.3em;
+    text-align: center;
+    padding: 15px 0;
+}
+.actus p{
+    margin-bottom:45px;
+    line-height: 1.3em;
+    color: rgb(3, 3, 3);
+}
+.actus a{
+    padding: 10px 5px;
+   line-height: 2.8em;
+    color: rgb(154, 97, 6);
+    text-decoration: none; 
+}
+.actus h2{
+    line-height: 1.3em;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.actus a:hover{
+    background: red;
+    color: white;
+    border-radius: 5px;
+}
+span{
+    color: blue;
+    
+}
+.valere{
+background: rgb(184, 171, 171);
+    border: 1px solid black;
+width: 49%;
+display: inline-block;
+margin: auto;
+vertical-align: top;
+}
+
+.actus img{
+    margin-top: 5px
+}
+.valere img{
+    width: 100%;  
+}
+.giroud{
+    border: 1px solid black;
+    background: rgb(248, 228, 228);
+    width: 49%;
+    display: inline-block;
+}
+.giroud img{
+    width: 100%;
+}
+
+
+.paris{
+    border: 1px solid black; 
+    background: rgb(155, 112, 112);
+    margin: 5px 0 ;
+}
+.paris img{
+    width: 80%;
+}
+.om{
+    border: 1px solid black;
+    grid-row: 4;
+    background: rgb(156, 174, 215);
+}
+.om img{
+    width: 80%;
+}
+.match{
+
+    position: relative;
+    ;
+
+
+}
+.match{
+    background: grey;
+    
+}
+article .match{
+    width: 30%;
+}
+.match h2{
+    padding: 0 15px;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+.match h2:nth-of-type(1){
+    color:transparent ;
+    visibility: hidden;
+
+    -webkit-text-stroke: 2px rgb(238, 230, 230);
+    
+}
+.match h2:nth-of-type(2){
+    color: rgb(5, 5, 136);
+   
+    animation: animate 4s ease-in-out infinite ;
+}
+@keyframes animate{
+    0%,100%{
+        clip-path: polygon(0% 35%, 13% 40%, 23% 47%, 30% 56%, 47% 62%, 60% 61%, 71% 55%, 82% 51%, 97% 44%, 100% 41%, 100% 99%, 0% 100%);
+
+
+    }
+   50%{
+    clip-path: polygon(0 60%, 13% 49%, 34% 44%, 35% 40%, 46% 49%, 59% 45%, 71% 36%, 81% 32%, 91% 36%, 100% 30%, 100% 99%, 0% 100%);
+
+   }
+
+   /*COMPETITIONS*/
+   }
+
+   .compet p{
+    margin-top: 25px;
+    line-height: 1.5em;
+   }
+
+   article .compet{
+    width: 30%;
+}
+.compet h2{
+    padding: 0 15px;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+.compet h2:nth-of-type(1){
+    color:transparent ;
+    visibility: hidden;
+
+    -webkit-text-stroke: 2px rgb(238, 230, 230);
+    
+}
+.compet h2:nth-of-type(2){
+    color: rgb(118, 16, 16);
+   
+    animation: animate 4s ease-in-out infinite ;
+}
+@keyframes animate{
+    0%,100%{
+        clip-path: polygon(0% 65%, 23% 40%, 23% 47%, 30% 56%, 47% 62%, 60% 61%, 71% 55%, 82% 51%, 97% 44%, 100% 41%, 100% 99%, 0% 100%);
+
+
+    }
+   50%{
+    clip-path: polygon(0 70%, 23% 49%, 54% 44%, 35% 40%, 46% 49%, 59% 45%, 71% 36%, 81% 32%, 91% 36%, 100% 30%, 100% 99%, 0% 100%);
+
+   }
+   /*CLASSEMNTS*/
+  
+
+  
+
+   
+   /*COMPET*/
+   }
+   .compet h2{
+    margin-bottom: 15px;
+   }
+
+   .compet1{
+    width: 49%;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 0 20px;
+   }
+   .compet2{
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 20px;
+    border: 1px solid black;
+
+   }
+   .compet3{
+    margin-top: 25px;
+    width: 49%;
+    display: inline-block;
+    padding: 0 20px;
+    border: 1px solid black;
+
+
+   }
+   .compet4{
+    margin-top: 25px;
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 20px;
+    border: 1px solid black;
+   }
+   h3{
+    color:rgb(118, 16, 16); ;
+    text-align: center;
+   }
+   .class1{
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid black;
+    
+   }
+   .class2{
+    width: 49%;
+    display: inline-block;
+    border: 1px solid black;
+   }
+   .class3{
+    width: 49%;
+    display: inline-block;
+    border: 1px solid black;
+    margin-top: 10px;
+   }
+   .class4{
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid black;
+    margin-top: 10px;
+   }
+   .class p{
+    border-bottom: 1px solid black;
+    line-height: 2em;
+   }
+   .class h2{
+    text-align: center;
+    margin-bottom: 15px;
+   }
+   .class{
+    gap: 5px;
+   }
+   .class a{
+    text-decoration: none;
+    color: rgb(195, 14, 23);
+    line-height: 3em;
+    
+    
+   }
+   .lien{
+    text-align: center;
+   }
+   .part img{
+    width: 30%;
+    border-radius: 50%;
+    margin: auto;
+   }
+   .part{
+    display: flex;
+    justify-content: space-around;
+    background: grey;
+    align-items: center;
+   }
+  
+   
