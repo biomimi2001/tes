@@ -74,7 +74,58 @@ main{
     header img {
         display: block;
         margin: 0 auto;
-    }
+    }   
+}
 
-    
-    }
+ main{
+  text-align: center;
+  background-image: url(../img/bg-body2.png);
+}
+
+.classement img{
+  width: 500px;
+}
+
+.actus img{
+  width: 800px;
+}
+
+section{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.competition img{
+  width: 800px;
+}
+
+.partenaires article{
+  background-color: white;
+  width: 120%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.partenaires article h1{
+  font-size: 3em;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #C3C3C3;
+  border-bottom: 2px solid #C3C3C3;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#jul{
+  width: 250px;
+}
+
+#cochon{
+  width: 200px;
+}
+
+#suze{
+  width: 201px;
+}
